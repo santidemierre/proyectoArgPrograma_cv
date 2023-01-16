@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>CV - Argentina Programa</title>
 </head>
@@ -22,19 +25,104 @@
         </header>
     
         <main class="main row">
-            <div class="informacion_personal col-3">
+            <section class="informacion_personal col-12 col-md-3">
                 <div class="imagen-cv">
                     <img src="img/62.jpg" alt="imagen de cv" class="imagen_cv">
                 </div>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni delectus, quae, quas nam esse blanditiis a nulla ratione nemo expedita vero quo asperiores id eos velit perspiciatis similique eum!</p>
+                <h3 class="detalles_personales">Detalles Personales</h3>
 
-            </div>
-            <div class="col-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tempora vero distinctio soluta explicabo, aspernatur beatae odio accusamus quidem! Voluptatibus laborum minima, neque sequi dicta maxime maiores autem impedit quia?</div>
+                <div>
+                    <h4 class="titulo_personales">Dirección</h4>
+                    <p>Av. Córdoba 788 - Capital Federal - Buenos Aires</p>
+                </div>
+                <div>
+                    <h4 class="titulo_personales">Teléfono</h4>
+                    <p>11-3355-2233</p>
+                </div>
+                <div>
+                    <h4 class="titulo_personales">Email</h4>
+                    <p>mimail@email.com.ar</p>
+                </div>             
+            </section> <!-- Información personal -->
+
+            <section class="col-12 col-md-9">
+                <div class="contenedor">
+                    <h3 class="detalles_personales">Descripcion</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil totam, nemo voluptate distinctio laboriosam ullam placeat dignissimos sed enim quos minus eligendi quod, similique pariatur natus temporibus commodi dicta veniam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque fuga placeat nostrum nisi quia magni nesciunt reiciendis nam, libero aut atque! Eligendi ipsa, nobis molestiae pariatur eaque accusantium esse.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis necessitatibus fugiat obcaecati facere suscipit at temporibus, deleniti voluptatum, officiis rerum adipisci illum velit placeat architecto aliquid? Dicta nobis maiores non!</p>
+                </div> 
+
+                <div class="contenedor">
+                    <h3 class="detalles_personales">Experiencia</h3>
+                    <div class="experiencia">
+                        <div>
+                            <p class="parrafo_experiencia">2015 - Presente</p>
+                        </div>
+                        <div>
+                            <p class="parrafo_experiencia">Senior Web Developer</p>
+                            <p>Facebook Inc., Menlo Park Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius tenetur iure nesciunt obcaecati adipisci inventore repellat dicta fuga ipsam, aliquid ratione facilis nam vel consequatur deleniti nihil corporis quod totam?</p>
+                        </div>
+                    </div>
+                    <div class="experiencia">
+                        <div>
+                            <p class="parrafo_experiencia">2015 - Presente</p>
+                        </div>
+                        <div>
+                            <p class="parrafo_experiencia">Senior Web Developer</p>
+                            <p>Facebook Inc., Menlo Park Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius tenetur iure nesciunt obcaecati adipisci inventore repellat dicta fuga ipsam, aliquid ratione facilis nam vel consequatur deleniti nihil corporis quod totam?</p>
+                        </div>
+                    </div>
+                    <div class="experiencia">
+                        <div>
+                            <p class="parrafo_experiencia">2015 - Presente</p>
+                        </div>
+                        <div>
+                            <p class="parrafo_experiencia">Senior Web Developer</p>
+                            <p>Facebook Inc., Menlo Park Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius tenetur iure nesciunt obcaecati adipisci inventore repellat dicta fuga ipsam, aliquid ratione facilis nam vel consequatur deleniti nihil corporis quod totam?</p>
+                        </div>
+                    </div>
+                    <div class="experiencia">
+                        <div>
+                            <p class="parrafo_experiencia">2015 - Presente</p>
+                        </div>
+                        <div>
+                            <p class="parrafo_experiencia">Senior Web Developer</p>
+                            <p>Facebook Inc., Menlo Park Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius tenetur iure nesciunt obcaecati adipisci inventore repellat dicta fuga ipsam, aliquid ratione facilis nam vel consequatur deleniti nihil corporis quod totam?</p>
+                        </div>
+                    </div>
+                </div> 
+            </section> <!-- Descripcion -->
         </main>
+
     </div>
     
-    
+    <footer id="footer" class="footer">
+        <div class="footer_grid">
+
+            <div class="nav-footer">
+                <h3 class="titulo-footer">Conoce todos mis proyectos</h3>
+                <nav class="menu">
+                    <a href="#">Github</a>
+                    <a href="#">www.miweb.com.ar</a>
+                </nav>
+            </div>
+
+            <div class="nav-footer">
+                <h3 class="titulo-footer">Mis redes de contacto</h3>
+                <nav class="sociales">
+                    <ul>
+                        <li><a href="http://facebook.com" target="_blank"><span>Facebook</span></a></li>
+                        <li><a href="http://twitter.com" target="_blank"><span>Twitter</span></a></li>
+                        <li><a href="http://instagram.com" target="_blank"><span>Instagram</span></a></li>
+                    </ul>
+                </nav>
+            
+            </div>
+        </div>
+    </footer>    
+
+    <a href="#footer" class="btn-flotante">Contacto</a>
 
     <script src="js/app.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
