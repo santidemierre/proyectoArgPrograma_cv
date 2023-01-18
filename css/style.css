@@ -71,7 +71,6 @@ img {
 /* Detalles personales */
 .detalles_personales {
     font-size: 1.6rem;
-    font-size: ;
     color: #143e72;
     border-bottom: 1px solid #ccc;
     margin-bottom: 2rem;
@@ -87,9 +86,15 @@ img {
 }
 .experiencia {
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 }
 .parrafo_experiencia {
+    font-weight: 700;
+    margin-bottom: .5rem;
+    width: 100%;
+    margin: 0 2rem
+}
+.parrafo_experiencia_descripcion {
     font-weight: 700;
     margin-bottom: .5rem;
 }
